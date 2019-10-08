@@ -89,3 +89,8 @@ function clearUI() {
   $('#patient-search-create-row').hide();
 }
 ;
+$('#clear-appointment').on('click', function(e) {
+  $('#appointment').html('');
+  $('#appointment-holder-row').hide();
+});
+
